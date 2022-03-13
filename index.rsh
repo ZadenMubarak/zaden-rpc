@@ -12,7 +12,7 @@ assert(winner(ROCK, ROCK) == DRAW);
 
 forall(UInt, handAlice =>
     forall(UInt, handBob =>
-      assert(isOutcome(winner(handAlice, handBob)))));
+      assert(isOutcome(winner(handAlice, handBob)));
 
 forall(UInt, (hand) =>
     assert(isOoutcome(winner(handAlice, handBob))))
